@@ -1,7 +1,7 @@
-#N canvas 398 177 450 442 10;
+#N canvas 398 177 466 447 10;
 #X obj 76 12 inlet;
 #X obj 88 117 metro 500;
-#X obj 101 70 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 101 70 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 342 12 inlet;
 #X obj 316 70 expr 60 / $f1 * 1000;
