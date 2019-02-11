@@ -10,8 +10,7 @@
 #X obj 72 115 metronome;
 #X msg 56 186 2;
 #X msg 141 185 2;
-#X obj 48 237 lpd8 1;
-#X obj 159 238 lpd8 5;
+#X obj 41 255 lpd8, f 26;
 #X connect 0 0 5 0;
 #X connect 1 0 5 4;
 #X connect 2 0 5 3;
@@ -20,4 +19,4 @@
 #X connect 5 0 6 0;
 #X connect 5 1 7 0;
 #X connect 6 0 8 0;
-#X connect 7 0 9 0;
+#X connect 7 0 8 4;
