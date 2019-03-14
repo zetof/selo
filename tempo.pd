@@ -9,6 +9,10 @@
 -1;
 #X obj 72 115 metronome;
 #X obj 30 196 lpd8, f 26;
+#X obj 49 284 sampler;
+#X obj 119 281 sampler;
+#X obj 191 291 sampler;
+#X obj 271 287 sampler;
 #X connect 0 0 5 0;
 #X connect 1 0 5 4;
 #X connect 2 0 5 3;
@@ -22,3 +26,7 @@
 #X connect 5 1 6 5;
 #X connect 5 1 6 6;
 #X connect 5 1 6 7;
+#X connect 6 0 7 0;
+#X connect 6 1 8 0;
+#X connect 6 2 9 0;
+#X connect 6 3 10 0;
